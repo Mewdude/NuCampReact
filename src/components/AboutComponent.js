@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function About(props) {
 
     const partners = props.partners.map(partner => {
-        return (<RenderPartner partner={partner} />``);
+        return (<RenderPartner partner={partner} />);
     });
 
     return (
